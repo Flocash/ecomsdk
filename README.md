@@ -20,7 +20,7 @@ There are four methods in FlocashService
   * getOrder: use this method to query detail about order
 Below is code scriptlet for how to use api
 ```java
-FlocashService service = new FlocashService(Environment.SANDBOX);
+        FlocashService service = new FlocashService(Environment.SANDBOX);
         OrderInfo orderInfo = new OrderInfo();
         OrderInfo order = new OrderInfo();
         PayerInfo payer = new PayerInfo();
