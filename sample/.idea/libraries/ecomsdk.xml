@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ecomsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/ecomsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

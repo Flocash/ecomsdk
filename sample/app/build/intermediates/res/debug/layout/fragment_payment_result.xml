@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33B5E5"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/payment_result"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Result:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvPaymentResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Order"
+        android:textSize="18sp" />
+
+</LinearLayout><!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/layout/fragment_payment_result.xml -->

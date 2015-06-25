@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33B5E5"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/choose_options"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/choose_payment_option"
+            android:textSize="18sp" />
+
+        <!--
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <RadioGroup
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:checked="true"
+                    android:text="@string/airtel"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/wari"
+                    android:textColor="@android:color/black" />
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/visamaster" />
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/visamaster" />
+            </LinearLayout>
+        </LinearLayout> -->
+
+        <ListView
+            android:id="@+id/listPayment"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:animationCache="false"
+            android:divider="@color/journal_line"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:listSelector="@drawable/selector_item_checkout"
+            android:choiceMode="singleChoice"
+            android:scrollbars="vertical"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true" >
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:text="@string/back"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:text="@string/next"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/layout/fragment_choose_options.xml -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="journal_line">#d6d7da</color>
+    <color name="main_color_selected_item">#305588c3</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="airtel">Airtel</string>
+    <string name="amount">Amount</string>
+    <string name="app_name">FlocashEcomGUI</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="checkout">Checkout</string>
+    <string name="choose_currency">Currency</string>
+    <string name="choose_options">Choose Options</string>
+    <string name="choose_payment_option">Choose payment option:</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="next">Next</string>
+    <string name="payer_s_email">Payer\'s email</string>
+    <string name="payment_result">Payment Result</string>
+    <string name="update">Update</string>
+    <string name="update_addition">Update addition</string>
+    <string name="virtual_terminal">Virtual Terminal</string>
+    <string name="wari">Wari</string>
+    <!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@android:color/black</item>
+        <!-- <item name="android:windowIsTranslucent">true</item> -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        All customizations that are NOT specific to a particular API-level can go here.
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

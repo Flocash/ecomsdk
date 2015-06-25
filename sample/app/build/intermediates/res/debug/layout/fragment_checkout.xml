@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33B5E5"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:text="@string/checkout"
+            android:textColor="@android:color/white"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f0f0f0"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Choose order:"
+            android:textSize="18sp" />
+
+        <!--
+        <EditText
+            android:id="@+id/edtAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/amount"
+            android:inputType="numberSigned"
+            android:maxLines="1"
+            android:textColor="@android:color/background_dark"
+            android:minHeight="40dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spinChooseCurrency"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="40dp"
+            android:prompt="@string/choose_currency" />
+
+        <EditText
+            android:id="@+id/edtPayerEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:hint="@string/payer_s_email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@android:color/background_dark"
+            android:minHeight="40dp"
+            android:paddingLeft="5dp"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spinChooseCountry"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:minHeight="40dp"
+            android:prompt="@string/choose_currency" /> -->
+
+        <ListView
+            android:id="@+id/listCheckoutItem"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:animationCache="false"
+            android:divider="@color/journal_line"
+            android:dividerHeight="1dp"
+            android:fadingEdge="none"
+            android:fadingEdgeLength="0dp"
+            android:listSelector="@drawable/selector_item_checkout"
+            android:scrollbars="vertical"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true" >
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:minWidth="100dp"
+            android:text="@string/next"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/ThaiThinh/StudioProjects/FlocashEcomGUI/app/src/main/res/layout/fragment_checkout.xml -->
