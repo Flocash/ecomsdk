@@ -4,24 +4,24 @@ Android SDK and sample for Flocash Ecom API
 # How to use SDK lib
 1. Add lib to your android application.
 
-Copy ecomsdk.jar to project libs folder. Change build.gradle and add following line
-  ```dependencies {
+  Copy ecomsdk.jar to project libs folder. Change build.gradle and add following line
+  ```
+  dependencies {
   ....
     compile files('libs/ecomsdk.jar')
   ....
   }
   ```
-  
 2. Initial `FlocashService`
 
-There is two Environment setting on our sdk: `SANDBOX` and `LIVE`. You initial service as below for sandbox
+  There is two Environment setting on our sdk: `SANDBOX` and `LIVE`. You initial service as below for sandbox
   ```java
   FlocashService service = new FlocashService(Environment.SANDBOX)
   ```
   
 3. Use `FlocashService`
 
-There are four methods in FlocashService
+  There are four methods in FlocashService
   * createOrder: Create ecommerce order
   * updatePaymentOpion: Select payment option for order to process payment
   * updateAdditionField: Some payment options need customer provide more info for process payment as mobile number wallet, otp etc... Call this to add more info for that kind order
