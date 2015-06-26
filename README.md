@@ -10,10 +10,13 @@ Copy ecomsdk.jar to project libs folder. Change build.gradle and add following l
     compile files('libs/ecomsdk.jar')
   ....
   }```
+  
 2. Initial `FlocashService`
-  There is two Environment setting on our sdk: `SANDBOX` and `LIVE`. You initial service as below for sandbox
+
+There is two Environment setting on our sdk: `SANDBOX` and `LIVE`. You initial service as below for sandbox
   ``` FlocashService service = new FlocashService(Environment.SANDBOX)```
 3. Use `FlocashService`
+
 There are four methods in FlocashService
   * createOrder: create ecommerce order
   * updatePaymentOpion: select payment option for order to process payment
