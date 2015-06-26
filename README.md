@@ -3,7 +3,7 @@ Android SDK and sample for Flocash Ecom API
 
 # How to use SDK lib
 1. Add lib to your android application
-  Copy ecomsdk.jar to project libs folder. Change build.grale to add following line
+  Copy ecomsdk.jar to project libs folder. Change build.gradle and add following line
   ```dependencies {
   ....
     compile files('libs/ecomsdk.jar')
